@@ -97,8 +97,13 @@
     <Content Include="cadastrousuario.aspx" />
     <Content Include="Global.asax" />
     <Content Include="listaCarro.aspx" />
+    <Content Include="listaMarca.aspx" />
+    <Content Include="ListaNegocio.aspx" />
+    <Content Include="listaUsuario.aspx" />
+    <Content Include="paginainicial.aspx" />
     <Content Include="Web.config" />
     <Content Include="login.aspx" />
+    <Content Include="listarCliente.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cadastrocarro.aspx.cs">
@@ -125,6 +130,34 @@
     <Compile Include="listaCarro.aspx.designer.cs">
       <DependentUpon>listaCarro.aspx</DependentUpon>
     </Compile>
+    <Compile Include="listaMarca.aspx.cs">
+      <DependentUpon>listaMarca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listaMarca.aspx.designer.cs">
+      <DependentUpon>listaMarca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaNegocio.aspx.cs">
+      <DependentUpon>ListaNegocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaNegocio.aspx.designer.cs">
+      <DependentUpon>ListaNegocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listaUsuario.aspx.cs">
+      <DependentUpon>listaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listaUsuario.aspx.designer.cs">
+      <DependentUpon>listaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginainicial.aspx.cs">
+      <DependentUpon>paginainicial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginainicial.aspx.designer.cs">
+      <DependentUpon>paginainicial.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -139,6 +172,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listarCliente.aspx.cs">
+      <DependentUpon>listarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listarCliente.aspx.designer.cs">
+      <DependentUpon>listarCliente.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,7 @@ namespace _2ADSB1
 
             if(login == "111" && senha == "111") 
             {
-                Response.Redirect("cadastrocarro.aspx");
+                Response.Redirect("paginainicial.aspx");
             }
         }
     }

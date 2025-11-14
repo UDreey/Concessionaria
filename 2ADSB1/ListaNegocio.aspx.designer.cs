@@ -11,25 +11,25 @@ namespace _2ADSB1
 {
 
 
-    public partial class listaCarro
+    public partial class ListaNegocio
     {
 
         /// <summary>
-        /// Controle gvCarros.
+        /// Controle GridView1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvCarros;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// Controle dslistarCarros.
+        /// Controle dslistarNegocio.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource dslistarCarros;
+        protected global::System.Web.UI.WebControls.SqlDataSource dslistarNegocio;
     }
 }

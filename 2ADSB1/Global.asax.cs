@@ -15,10 +15,6 @@ namespace _2ADSB1
         {
         }
 
-        protected void Session_Start()
-        {
-            Session["Carro"] = new List<Carro>();
-
-        }
+    
     }
 }
